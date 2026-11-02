@@ -1,0 +1,20 @@
+[project]
+name = "ml-dl-revision"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Soufyane El Omrani", email = "elomranisoufyan@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=3.1.0",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+ml-dl-revision = "ml_dl_revision:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
